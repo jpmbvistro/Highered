@@ -15,6 +15,7 @@ Datatypes
             - Email
             - LinkedIn Connection
             - Call
+            - Coffee Chat
         - Date
         - Content
         - Link
@@ -28,6 +29,10 @@ Datatypes
     - JobListing
         - Link
         - Description
+
+    - Rules
+        - Default (RC)
+            - RollOver Missed Connections
 
     Base CRM Types
         - Person
