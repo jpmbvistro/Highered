@@ -1,4 +1,5 @@
 import React from 'react';
+import { IntlProvider } from 'react-intl';
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
 import { ThemeProvider } from 'theme-ui'
 import Dashboard from './components/Dashboard';
@@ -9,9 +10,11 @@ export const App = () => {
         {
             path: "/",
             element: (
-                <ThemeProvider theme={theme}>
-                    <Dashboard/>  
-                </ThemeProvider>
+                <IntlProvider locale="en" defaultLocale="en">
+                    <ThemeProvider theme={theme}>
+                        <Dashboard/>  
+                    </ThemeProvider>
+                </IntlProvider>
             ),
         },
     ]);

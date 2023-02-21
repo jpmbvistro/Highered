@@ -1,4 +1,6 @@
 import React from 'react';
+import { Flex } from 'theme-ui'; 
+
 
 interface ConnectionsCountProps {
 
@@ -6,7 +8,9 @@ interface ConnectionsCountProps {
 
 const ConnectionsCount: React.FC<ConnectionsCountProps> = () => {
     return (
-        <div/>
+        <Flex sx={{flexDirection: 'column'}}>
+            <div sx={}/>
+        </Flex>
     )
 }
 
