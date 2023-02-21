@@ -1,1 +1,1 @@
-export { default } from '/.zConnectionsCount';
+export { default } from '/.ConnectionsCount';
